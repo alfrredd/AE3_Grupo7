@@ -18,7 +18,17 @@ public class Main {
 		System.out.println("Por último probaremos a acumular números : " + suma.sumaAcumulado(20));
 		System.out.println("==============================================================");
 		//Prueba Resta
-		
+		Resta resta = new Resta();
+		System.out.println("Vamos a restar dos reales, el 5.5 y el 3.2");
+		System.out.println("El resultado es: " + resta.dosReales(5.5f, 3.2f));
+		System.out.println("Ahora restaremos dos enteros: el 50 y el 20");
+		System.out.println("El resultado es: " + resta.dosEnteros(50, 20));
+		System.out.println("También hay que restar tres reales: 6.5, 1.2 y 3.1");
+		System.out.println("El resultado es: " + resta.tresReales(6.5f, 1.2f, 3.1f));
+		System.out.println("Por último probaremos a acumular números : " + resta.restaAcumulado(134));
+		System.out.println("Por último probaremos a acumular números : " + resta.restaAcumulado(22));
+		System.out.println("Por último probaremos a acumular números : " + resta.restaAcumulado(5));
+		System.out.println("==============================================================");
 		//Prueba Producto
 		Producto productos = new Producto();
 		System.out.println("Vamos a multiplicar dos reales, el 23.65 entre el 8.36");
